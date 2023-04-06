@@ -3,5 +3,7 @@
 //include 'lib_zxing'
 //project(':libcocos2dx').projectDir = new File('cocos2d-x/cocos/platform/android/libcocos2dx')
 include ':app'
+include ':libcocos'
+project(':libcocos').projectDir = new File('libcocos2dx')
 include ':libservice'
 rootProject.name = "cocosTest"
