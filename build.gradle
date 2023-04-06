@@ -1,6 +1,59 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-plugins {
-    id 'com.android.application' version '7.3.1' apply false
-    id 'com.android.library' version '7.3.1' apply false
-    id 'org.jetbrains.kotlin.android' version '1.7.20' apply false
+
+buildscript {
+    ext.kotlin_version = '1.5.0'
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+
+//        classpath 'com.android.tools.build:gradle:4.0.2'
+        // 美团打包walle
+        classpath 'com.meituan.android.walle:plugin:1.1.6'
+        // kotlin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // string fog
+//        classpath 'com.github.megatronking.stringfog:gradle-plugin:2.2.1'
+//        classpath 'com.github.megatronking.stringfog:xor:1.1.0'
+
+        classpath "com.github.qq549631030:android-junk-code:1.0.7"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+
+        flatDir {
+            dirs 'libs'
+        }
+        maven {
+            credentials {
+                username 'deployment'
+                password 's10**)Dm2900sm27Aj1'
+            }
+            url "http://maven.coohua.com:8002/nexus/content/repositories/releases"
+        }
+        maven { url 'https://jitpack.io' }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        }
+//        maven { url 'https://dl.bintray.com/sunjiangrong/maven' }
+        maven {
+            url 'https://artifact.bytedance.com/repository/Volcengine/'
+        }
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }

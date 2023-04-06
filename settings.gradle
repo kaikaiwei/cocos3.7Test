@@ -1,16 +1,6 @@
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-rootProject.name = "cocosTest"
+//include ':libcocos2dx'
+//include ':base','lib_nocash'
+//include 'lib_zxing'
+//project(':libcocos2dx').projectDir = new File('cocos2d-x/cocos/platform/android/libcocos2dx')
 include ':app'
+rootProject.name = "cocosTest"
