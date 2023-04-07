@@ -1,0 +1,56 @@
+{
+  "__version__": "1.3.4",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "buildPath": "project://build",
+    "outputName": "android",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "android"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1680606482303": {
+        "type": "build",
+        "id": "1680606482303",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-4-7 09:14:25 Build success in 48107 ms!",
+        "options": {
+          "name": "test3",
+          "platform": "android",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "packAutoAtlas": true,
+          "startScene": "43695977-ace1-4867-a87d-459cc53f70ac",
+          "outputName": "android",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "43695977-ace1-4867-a87d-459cc53f70ac",
+              "inBundle": false
+            }
+          ],
+          "android": [],
+          "packages": {},
+          "__version__": "1.3.4"
+        },
+        "time": "2023-4-7 09:13",
+        "dirty": false
+      }
+    }
+  }
+}

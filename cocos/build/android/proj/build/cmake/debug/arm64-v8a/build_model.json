@@ -1,0 +1,246 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cmake/debug/arm64-v8a",
+  "cxxBuildFolder": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cmake/debug/arm64-v8a",
+  "abiPlatformVersion": 21,
+  "cmake": {
+    "cmakeWrappingBaseFolder": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cxx/debug/arm64-v8a",
+    "cmakeArtifactsBaseFolder": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cmake/debug/arm64-v8a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cmake/debug/arm64-v8a",
+      "cmakeToolchain": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Users/weikai/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cmake/debug/prefab/arm64-v8a/prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-21"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/Users/weikai/Workspace/Qingwu/android/cocosTest/app/build/intermediates/cmake/debug/obj/arm64-v8a"
+        },
+        {
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
+          "value": "/Users/weikai/Workspace/Qingwu/android/cocosTest/app/build/intermediates/cmake/debug/obj/arm64-v8a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/Users/weikai/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "21"
+        },
+        {
+          "name": "RES_DIR",
+          "value": "/Users/weikai/Workspace/cocos/test3/build/android"
+        },
+        {
+          "name": "COCOS_X_PATH",
+          "value": "/Applications/CocosCreator/Creator/3.7.0/CocosCreator.app/Contents/Resources/resources/3d/engine/native"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_static"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "clang"
+        },
+        {
+          "name": "ANDROID_ARM_NEON",
+          "value": "TRUE"
+        },
+        {
+          "name": "ANDROID_LD",
+          "value": "gold"
+        }
+      ]
+    },
+    "cmakeServerLogFile": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cmake/debug/arm64-v8a/cmake_server_log.txt"
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DRES_DIR\u003d/Users/weikai/Workspace/cocos/test3/build/android",
+      "-DCOCOS_X_PATH\u003d/Applications/CocosCreator/Creator/3.7.0/CocosCreator.app/Contents/Resources/resources/3d/engine/native",
+      "-DANDROID_STL\u003dc++_static",
+      "-DANDROID_TOOLCHAIN\u003dclang",
+      "-DANDROID_ARM_NEON\u003dTRUE",
+      "-DANDROID_LD\u003dgold"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "objFolder": "/Users/weikai/Workspace/Qingwu/android/cocosTest/app/build/intermediates/cmake/debug/obj",
+    "soFolder": "/Users/weikai/Workspace/Qingwu/android/cocosTest/app/build/intermediates/cmake/debug/lib",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": [
+      "cocos"
+    ],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build",
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/weikai/Workspace/Qingwu/android/cocosTest/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/weikai/Workspace/Qingwu/android/cocosTest/app",
+      "moduleBuildFile": "/Users/weikai/Workspace/Qingwu/android/cocosTest/app/build.gradle",
+      "makeFile": "/Users/weikai/Workspace/Qingwu/android/cocosTest/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "buildStagingFolder": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build",
+      "ndkFolder": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147",
+      "ndkVersion": "21.3.6528147",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "originalCmakeToolchainFile": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+      "cmakeToolchainFile": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/Users/weikai/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/Users/weikai/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "isPreferCmakeFileApiEnabled": true
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/weikai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/Users/weikai/Workspace/Qingwu/android/cocosTest",
+        "cxxFolder": "/Users/weikai/Workspace/Qingwu/android/cocosTest/.cxx",
+        "compilerSettingsCacheFolder": "/Users/weikai/Workspace/Qingwu/android/cocosTest/.cxx",
+        "sdkFolder": "/Users/weikai/Library/Android/sdk",
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false,
+        "isV2NativeModelEnabled": true
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabDirectory": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cmake/debug/prefab"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/Users/weikai/Workspace/cocos/test3/build/android/proj/build/cmake/debug/prefab/arm64-v8a"
+}

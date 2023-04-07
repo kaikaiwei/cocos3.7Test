@@ -1,0 +1,28 @@
+{
+  "__version__": "3.0.6",
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "bacf5e",
+        "services": []
+      },
+      "android": {
+        "configID": "bacf5e",
+        "services": []
+      }
+    },
+    "taskOptionsMap": {
+      "1680606482303": {
+        "configID": "bacf5e",
+        "services": [],
+        "__version__": "3.0.6"
+      }
+    },
+    "__version__": "1.3.4"
+  },
+  "builder-options": {
+    "configID": "bacf5e",
+    "services": [],
+    "__version__": "3.0.6"
+  }
+}
